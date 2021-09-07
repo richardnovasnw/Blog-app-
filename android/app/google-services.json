@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1094938273946",
+    "project_id": "blog-ffcbe",
+    "storage_bucket": "blog-ffcbe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1094938273946:android:8b44eb64399f74aa741723",
+        "android_client_info": {
+          "package_name": "com.example.blog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1094938273946-6mukf9drvioidj7htoii3e8jkc3a64cr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBia_Ejdv4Z-Cukqx1tfRUKH74_8R916N0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1094938273946-6mukf9drvioidj7htoii3e8jkc3a64cr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
