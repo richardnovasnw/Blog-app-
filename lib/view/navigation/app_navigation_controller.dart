@@ -50,6 +50,10 @@ class AppNavigationController extends AppFlowController<AppNavigationState> {
     state =
         state.rebuild((AppNavigationStateBuilder b) => b.create = 'viewPost');
   }
+  
+  void home() {
+    state = state.rebuild((AppNavigationStateBuilder b) => b.create = 'in');
+  }
 
   @override
   List<Page<Object>> onGeneratePages(
