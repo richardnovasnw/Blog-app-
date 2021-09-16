@@ -51,10 +51,6 @@ class AppNavigationController extends AppFlowController<AppNavigationState> {
         state.rebuild((AppNavigationStateBuilder b) => b.create = 'viewPost');
   }
 
-  void home() {
-    state = state.rebuild((AppNavigationStateBuilder b) => b.create = 'in');
-  }
-
   @override
   List<Page<Object>> onGeneratePages(
     AppNavigationState state,
@@ -87,23 +83,7 @@ class AppNavigationController extends AppFlowController<AppNavigationState> {
           post: l,
         ))
 
-      // if (state.create == 'in')
-      //   const MaterialPage<Object>(
-      //     child: HomePage(),
-      //   )
-      // else
-      //   (state.create == 'createPost')
-      //       ? const MaterialPage<Object>(
-      //           child: CreatePost(),
-      //         )
-      //       : (state.create == 'viewPost')
-      //           ? MaterialPage<Object>(
-      //               child: PostDetail(
-      //               post: l,
-      //             ))
-      //           : const MaterialPage<Object>(
-      //               child: SignIn(),
-      //             ),
+    
     ];
   }
 }
